@@ -20,12 +20,12 @@ const order = {};
 for (let i = 0; i < flavorArray.length; i++) {
   const key = flavorArray[i];
 
-  if (key) {
+
     if (order[key] !== undefined) {
       order[key] = order[key] + 1;
     } else {
       order[key] = 1;
     }
   }
-}
-console.log(order)
+
+console.log(order);
